@@ -1,0 +1,8 @@
+.container {
+    position: relative;
+    width: calc(100% - 200px);
+    height: 100vh;
+    margin-left: 200px;
+    padding: 25px;
+    overflow: hidden;
+  }

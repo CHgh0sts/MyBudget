@@ -1,0 +1,49 @@
+.Menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background: var(--bg1);
+    color: var(--colorText);
+    height: 100%;
+}
+.Menu h1 {
+    margin: 25px 0;
+    padding-left: 10px;
+}
+.link, .actualPage {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.link a, .actualPage a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.link:hover, .actualPage:hover {
+    background: var(--c2);
+    color: var(--colorTxt);
+}
+.actualPage {
+    background: var(--c1);
+    color: var(--colorTxt);
+}
+.link .icon, .actualPage .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.link .icon svg {
+    fill: #fff;
+}
+.actualPage .icon svg {
+    fill: #fff;
+}
